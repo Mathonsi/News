@@ -10,8 +10,9 @@
 }
 
 .span_2_of_3 {
-	width: 79.68%;
-	margin-left: 50%;
+	width: 77.68%;
+	float:left;
+	
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -25,6 +26,10 @@
 	}
 	
 	.span_2_of_3 {
-	width: 100%;
+	width: 100%; 
+	text-align:left;
+
+	margin-left:0;
+	
 }
 }
